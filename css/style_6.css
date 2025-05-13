@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 2000px;
+}
+
+#some_block {
+  background: red;
+  color: white;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  left: 20px;
+  top: 50px;
+}
+
+#header,
+#footer {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  border-bottom: 4px solid silver;
+  background: black;
+  color: white;
+  line-height: 70px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+#nav {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#nav li {
+  display: inline;
+  background: white;
+  border: 1px solid silver;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+#nav li:hover {
+  color: aqua;
+  background: yellowgreen;
+  border-radius: 5px;
+  border-color: yellowgreen;
+}
+
+#nav li:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+#main {
+  width: 50%;
+  margin-left: 10%;
+  background: white;
+  border: 1px solid silver;
+  padding: 20px 2.5%;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+
+#aside {
+  width: 20%;
+  padding: 20px 2.5%;
+  background: white;
+  border: 1px solid silver;
+  float: left;
+  margin-left: 5%;
+  position: relative;
+  bottom: -10px;
+  z-index: 0;
+  left: -200px;
+}
+
+#footer {
+  margin-bottom: 0;
+  margin-top: 50px;
+  border-bottom: 0;
+  border-top: 4px solid silver;
+}

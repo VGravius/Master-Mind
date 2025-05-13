@@ -1,0 +1,17 @@
+#first {
+  /* background-color: blueviolet;
+  color: gold;
+  background-image: url("photo_5449774618123563788_y.jpg");
+  background-repeat: no-repeat;
+  background-position: center; */
+  color: blue;
+  background: blueviolet url("photo_5449774618123563788_y.jpg") no-repeat center
+    top;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#second {
+  height: 2000px;
+}
